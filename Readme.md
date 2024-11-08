@@ -1,18 +1,9 @@
-Flask Project
+Cara Kerja/Langkah-langkah menjalankan aplikasi:
 
-Proyek ini adalah aplikasi sederhana menggunakan Flask.
-Cara Menjalankan
+1. Import dataset ke Google Collab
 
-    Buka Terminal dan masuk ke folder proyek: cd path/to/flask_project
+2. Copy dan paste `Code Preprocessing.py` ke google collab dan run
 
-    Aktifkan environment (opsional, jika menggunakan environment): conda activate flask_env
+3. Run Code `Train Model.py` di google collab apabila ingin melatih model sendiri(parameter bisa disesuaikan).atau opsi kedua bisa buka file `Link Model.txt` dan download modelnya, lalu upload file CNN_Anjing_Ayam_Sapi.keras yang sudah di train ke Google Collab
 
-    Install Flask (jika belum terinstall): pip install Flask
-
-    Jalankan aplikasi: python app.py
-
-    Akses di browser:
-    Buka browser dan pergi ke http://127.0.0.1:5000
-
-    Stop server:
-    Tekan CTRL + C di terminal untuk menghentikan server.
+4. Run Code `Klasifikasi Hewan.py` di google collab maka akan muncul interface untuk klasifikasi hewan, upload gambar yg ingin diklasifikasi baru tekan submit, maka model akan melakukan klasifikasi
